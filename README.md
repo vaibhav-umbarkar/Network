@@ -34,5 +34,5 @@ The infrastructure follows this design:
 
 ### 2️⃣ Clone the Repo
 ```bash
-git clone https://github.com/<your-username>/Network.git
+git clone https://github.com/vaibhav8485/Network.git
 cd Network/Project
