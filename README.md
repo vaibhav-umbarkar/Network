@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Architecture
+## Architecture
 
 The infrastructure follows this design:
 
@@ -10,15 +10,15 @@ The infrastructure follows this design:
 
 ---
 
-## 🧩 Overview
+## Overview
 This project automates creation of a multi-AZ AWS VPC using Terraform, wrapped in a Bash script for a fully hands-free deployment experience.
 
-## ⚙️ Stack
+## Stack
 - Terraform
 - AWS CLI
 - Bash
 
-## 🧱 Infrastructure Created
+## Infrastructure Created
 - 1 VPC (10.0.0.0/16)
 - 4 Subnets (2 public, 2 private)
 - Internet Gateway + NAT Gateways
@@ -27,7 +27,7 @@ This project automates creation of a multi-AZ AWS VPC using Terraform, wrapped i
 - 2 EC2 Instances (Private Subnets)
 - Application Load Balancer
 
-## 🚀 Usage
+## Usage
 ```bash
 chmod +x deploy_infra.sh
 ./deploy_infra.sh
