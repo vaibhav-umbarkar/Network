@@ -25,7 +25,7 @@ This project automates creation of a multi-AZ AWS VPC using Terraform, wrapped i
 - Route Tables + Associations
 - Security Group
 - 2 EC2 Instances (Private Subnets)
-- Load Balancer
+- Application Load Balancer
 
 ## 🚀 Usage
 ```bash
